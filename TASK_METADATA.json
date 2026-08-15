@@ -1,0 +1,12 @@
+{
+  "schema_version": 2,
+  "source": "self_built",
+  "workflow": "codex_gold_fix",
+  "bug_category": "nil",
+  "reproducibility": "stable",
+  "difficulty": "advanced",
+  "target_bug_count": 1,
+  "symptom_type": "panic",
+  "reproduction_command": "go test -run TestEraseArchivedOrphanJob -count=1 ./internal/retention/",
+  "upstream_issue": null
+}
